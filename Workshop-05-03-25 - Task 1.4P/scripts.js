@@ -1,3 +1,5 @@
+// random change made here to show the changes in the git repository and also to show how to push code into git repository
+
 function changeText(){
     var textsArray = ["Text 1","Text 2", "Text 3", "Text 4", "Text 5"]
     var number = getRandomNumberBetween(0,textsArray.length - 1)
