@@ -1,0 +1,20 @@
+{
+  "name": "workshop-12-03-25",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosephKS10/SIT725/tree/main/Workshop-12-03-25"
+  },
+  "author": "Joseph K. Saji",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
