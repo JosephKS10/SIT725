@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Space Explorer</title>
+    <meta name="description" content="Explore the mysteries of space">
+    <meta name="author" content="Your Name">
+    
+    <meta property="og:title" content="Space Explorer">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Discover the wonders of the universe">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-wrapper navbar-size">
+            <a href="#" class="brand-logo"><img class="user-image-size" src="https://www.creativefabrica.com/wp-content/uploads/2021/05/15/space-logo-Graphics-12046515-2-580x387.png" /></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a target="_blank" href="https://www.nasa.gov/">NASA</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 id="heading">Welcome to Space Explorer</h1>
+                    <p class="flow-text">Embark on a journey beyond our planet and explore the mysteries of the cosmos.</p>
+                </div>
+                <div class="col s12 center-align">
+                    <img class="materialboxed materialboxed-image" src="https://www.nasa.gov/wp-content/uploads/2023/03/557885main_iss027e036716_full.jpg?w=1041">
+                </div>
+                <div class="col s12 center-align">
+                    <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1">
+                        <i class="material-icons left">rocket_launch</i>Launch
+                    </a>
+                </div>
+            </div>
+
+            <div class="row" id="card-section">
+            </div>
+        </div>
+
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Join the Space Mission</h4>
+                <p>Sign up to receive exclusive updates about space discoveries and upcoming missions.</p>
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="John" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <a class="waves-effect waves-light btn" id="formSubmit">Join Now</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
