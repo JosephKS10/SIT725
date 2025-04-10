@@ -1,0 +1,46 @@
+
+body{
+    background-color: #1B1B3A;
+    color: white;
+}
+.nav{
+    background-color: #3D5AFE;
+}
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.user-image-size {
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top: -20px;
+}
+
+.main-body {
+    background-color: #1B1B3A;
+    color: white;
+    height: calc(100vh - 64px);
+    text-align: center;
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.click-me-button {
+    background-color: #3D5AFE;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.modal-content h4 {
+    color: #3D5AFE;
+    font-weight: bold;
+}
+.card-text{
+    color: #3D5AFE;
+}
